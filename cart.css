@@ -53,6 +53,9 @@ header .header_tabs {
   background-size: contain;
   font-size: 2.8rem;
   font-weight: 700;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
 }
 
 .sidebar a {
@@ -112,23 +115,26 @@ header .cart img {
   opacity: 0.8;
 }
 
-.items{
-    display: flex;
-    flex-direction: column;
-
-}
-
-.items_data{
+.items {
   display: flex;
-}
-
-.items_front{
-  display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
-#cross_cart{
+.items_data {
+  display: flex;
+  gap: 10px;
+}
+
+.items_front {
+  display: flex;
+  justify-content: space-between;
+  gap: 70vw;
+}
+
+#cross_cart {
   width: 20px;
+  height: 20px;
 }
 
 .item_image {
@@ -140,7 +146,7 @@ header .cart img {
   max-width: 100%;
 }
 
-.price_details{
+.price_details {
   display: flex;
   justify-content: space-between;
 }
@@ -161,7 +167,7 @@ header .cart img {
   color: rgb(196, 196, 196);
 }
 
-.total_tab{
+.total_tab {
   padding: 50px 20px 100px 20px;
 }
 

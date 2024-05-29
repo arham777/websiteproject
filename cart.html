@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="cart.css" />
   </head>
   <body>
+    <div class="sidebar">
+      <a onclick="hideBar()" class="cross" href="#"
+        ><img src="/img/cross.png" alt=""
+      /></a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="#">Contact</a>
+      <a href="preset.html">My Presets</a>
+    </div>
     <header>
       <div class="header_tabs">
         <a href="portfolio.html">Portfolio</a>
@@ -30,23 +38,22 @@
       <h2>Shopping Cart</h2>
       <div class="items_data">
         <div class="item_image"><img src="/img/preset1.jpeg" alt="" /></div>
-      <div class="items">
-        <div class="items_front">
-          <h4>Moody dark preset</h4>
-        <img id="cross_cart" src="/img/cross.png" alt="">
-        </div>
-        <div class="price_details">
-          <div class="quantity">
-          <p>-</p>
-          <p>0</p>
-          <p>+</p>
-        </div>
-      
+        <div class="items">
+          <div class="items_front">
+            <h4>Moody dark preset</h4>
+            <img id="cross_cart" src="/img/cross.png" alt="" />
+          </div>
+          <div class="price_details">
+            <div class="quantity">
+              <p>-</p>
+              <p>0</p>
+              <p>+</p>
+            </div>
 
-        <div class="item_price">
-          <p>$99.99</p>
-        </div>
-        </div>
+            <div class="item_price">
+              <p>$99.99</p>
+            </div>
+          </div>
         </div>
       </div>
       <p>You have nothing in your shopping cart.</p>
